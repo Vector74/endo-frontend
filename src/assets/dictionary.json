@@ -1,0 +1,604 @@
+[
+  {
+    "source": "Betegelegedettségi kérdőív",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Patient satisfaction questionnaire"
+      }
+    ]
+  },
+  {
+    "source": "Honlap",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Home"
+      }
+    ]
+  },
+  {
+    "source": "Kitöltöm a kérdőívet",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "I will fill out the questionnaire"
+      }
+    ]
+  },
+  {
+    "source": "Kérdőívek lekérdezése",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Request questionnaires"
+      }
+    ]
+  },
+  {
+    "source": "Lehetőségek",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Choose"
+      }
+    ]
+  },
+  {
+    "source": "Nyelvek",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Languages"
+      }
+    ]
+  },
+  {
+    "source": "Magyar",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Hungary"
+      }
+    ]
+  },
+  {
+    "source": "Angol",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "English"
+      }
+    ]
+  },
+  {
+    "source": "Betegelégedettségi Kérdőív Felhasználása",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Use of Patient Satisfaction Questionnaire"
+      }
+    ]
+  },
+  {
+    "source": "Főkártya szövege",
+    "targets": [
+      {
+        "code": "HUN",
+        "text": "A betegelégedettségi kérdőív fontos eszköz a betegek számára, mert lehetőséget biztosít számukra, hogy visszajelzést adjanak az ellátás minőségéről és a tapasztalataikról. Ezáltal kifejezhetik elégedettségüket vagy éppen problémáikat, amelyek alapján az egészségügyi intézmények fejleszthetik szolgáltatásaikat. A kérdőív kitöltése segít abban, hogy az egészségügyi dolgozók jobban megértsék a betegek igényeit és elvárásait, így személyre szabottabb ellátást nyújthassanak.<br>A betegek biztonságérzetét is növeli, ha látják, hogy véleményüket figyelembe veszik, és az esetleges problémákat orvosolják. A kérdőív lehetőséget ad arra, hogy a páciensek jelezzék, ha az ellátás során hiányosságokat tapasztaltak, például hosszú várakozási időt, kommunikációs problémákat vagy kényelmetlenségeket. Ez hozzájárulhat a kezelési hibák csökkentéséhez és az általános betegbiztonság növeléséhez.<br>A betegek számára fontos, hogy a kezelésük során tiszta, biztonságos és barátságos környezetben érezzék magukat, ezért a kérdőívek révén az intézmények felmérhetik, hogy milyen mértékben teljesítik ezeket az elvárásokat. Az étkezés, a kórtermek tisztasága és az orvos-beteg kommunikáció minősége mind olyan tényezők, amelyeket a betegek értékelhetnek, és amelyek alapján a kórházak, rendelők javíthatják működésüket.<br>A kérdőívek hozzájárulnak a betegközpontú egészségügyi ellátás kialakításához, hiszen a betegek aktív részvételével az intézmények hatékonyabbá és empatikusabbá válhatnak. Emellett segíthet abban is, hogy a betegek nagyobb bizalmat érezzenek az ellátórendszer iránt, hiszen egyértelmű visszacsatolást kapnak arról, hogy a véleményük számít.<br>Hosszú távon a kérdőívek által nyert adatok felhasználhatók az egészségügyi ellátás folyamatos fejlesztésére, ezáltal a jövőbeni betegek jobb ellátásban részesülhetnek. Az egyéni tapasztalatok megosztásával a betegek nemcsak saját helyzetüket javíthatják, hanem más páciensek számára is jobb körülményeket teremthetnek. Végső soron a betegelégedettségi kérdőív nem csupán egy adminisztratív eszköz, hanem egy olyan lehetőség, amely révén a betegek aktívan hozzájárulhatnak az egészségügyi ellátás fejlődéséhez."
+      },
+      {
+        "code": "ENG",
+        "text": "A patient satisfaction survey is an important tool for patients because it allows them to provide feedback on the quality of care and their experiences. This allows them to express their satisfaction or concerns, which can be used to improve healthcare services. Completing a survey helps healthcare professionals better understand patients’ needs and expectations, allowing them to provide more personalized care.<br>Patients also feel more secure knowing that their opinions are being taken into account and that any concerns are being addressed. A survey allows patients to report any shortcomings they have experienced during their care, such as long waiting times, communication problems, or discomfort. This can help reduce treatment errors and increase overall patient safety.<br>Patients want to feel safe, secure, and comfortable during their treatment, so surveys allow healthcare providers to assess how well they are meeting these expectations. Food, cleanliness of wards and the quality of doctor-patient communication are all factors that patients can evaluate and on the basis of which hospitals and clinics can improve their operations.<br>Questionnaires contribute to the development of patient-centered healthcare, since with the active participation of patients, institutions can become more efficient and empathetic. They can also help patients feel more trust in the care system, since they receive clear feedback that their opinion matters.<br>In the long term, the data obtained through questionnaires can be used to continuously improve healthcare, thus ensuring that future patients receive better care. By sharing individual experiences, patients can not only improve their own situation, but also create better conditions for other patients. Ultimately, a patient satisfaction questionnaire is not just an administrative tool, but an opportunity for patients to actively contribute to the development of healthcare."
+      }
+    ]
+  },
+  {
+    "source": "Belső hiba",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Internal server error"
+      }
+    ]
+  },
+  {
+    "source": "Az ön neve",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "your name"
+      }
+    ]
+  },
+  {
+    "source": "E-mail",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "E-mail"
+      }
+    ]
+  },
+  {
+    "source": "Kérdőív beküldése",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Submit a questionnaire"
+      }
+    ]
+  },
+  {
+    "source": "Beküldés",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Submit"
+      }
+    ]
+  },
+  {
+    "source": "Rendben",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Ok"
+      }
+    ]
+  },
+  {
+    "source": "Sikeres beküldés",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Successful submission"
+      }
+    ]
+  },
+  {
+    "source": "Nagyra értékeljük a visszajelzését, hamarosan egy összefoglaló emailt fog kapni válaszai alapján!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "We appreciate your feedback, and you will receive a summary email with your responses soon!"
+      }
+    ]
+  },
+  {
+    "source": "A név mező kitöltése kötelező!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "The name field is required!"
+      }
+    ]
+  },
+  {
+    "source": "Az email mező kitöltése kötelező!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "The email field is required!"
+      }
+    ]
+  },
+  {
+    "source": "Helytelen email formátum!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "This is not a valid email format!"
+      }
+    ]
+  },
+  {
+    "source": "Belépés az adminisztrátori felületre",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Login"
+      }
+    ]
+  },
+  {
+    "source": "A jelszó mező kitöltése kötelező!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Password is required"
+      }
+    ]
+  },
+  {
+    "source": "A jelszó legalább 4 karakter hosszú legyen!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Password must be more than 4 characters"
+      }
+    ]
+  },
+  {
+    "source": "A jelszó maximális hossza 20 karakter!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Password cannot exceed more than 20 characters"
+      }
+    ]
+  },
+  {
+    "source": "Mégsem",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Cancel"
+      }
+    ]
+  },
+  {
+    "source": "Belépés",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Login"
+      }
+    ]
+  },
+  {
+    "source": "Jelszó",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Passwor"
+      }
+    ]
+  },
+  {
+    "source": "Adminisztrátori felület",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Administrator interface"
+      }
+    ]
+  },
+  {
+    "source": "A kérdőívhez nincsenek kérdések rögzítve!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "There are no questions attached to the questionnaire!"
+      }
+    ]
+  },
+  {
+    "source": "A kérdőív címe mező kitöltése kötelező!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "The questionnaire title field is mandatory!"
+      }
+    ]
+  },
+  {
+    "source": "Kérdőív",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Questionnaire"
+      }
+    ]
+  },
+  {
+    "source": "Kérdőív címe",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Questionnaire title"
+      }
+    ]
+  },
+  {
+    "source": "Mentés",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Save"
+      }
+    ]
+  },
+  {
+    "source": "Új kérdőív",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "New questionnaire"
+      }
+    ]
+  },
+  {
+    "source": "Új kérdés",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "New question"
+      }
+    ]
+  },
+  {
+    "source": "Kérdés",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Question"
+      }
+    ]
+  },
+  {
+    "source": "A kérdőív címe már szerepel a törzsben!",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "The title of the questionnaire is already in the body!"
+      }
+    ]
+  },
+  {
+    "source": "Kérdés típus",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Question type"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Felirat",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Caption"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Csillag",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Star"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Szöveg",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Text"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Dátum",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Date"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Páciens",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Patient"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Értékelés",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Evaluation"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Exportálás",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Export"
+      }
+    ]
+  },
+  {
+    "source": "Vissza",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Back"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Nem történt bejegygzés",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "No registration has taken place."
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Szűrő",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Filter"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Dátum",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Date"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Név része",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Part of name"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Email része",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Part of email"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Szűrés",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Filter"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Dátumtól",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Date from"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Dátumig",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Date to"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "date_time",
+    "targets": [
+      {
+        "code": "HUN",
+        "text": "Időpont"
+      },
+      {
+        "code": "ENG",
+        "text": "Date time"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "username",
+    "targets": [
+      {
+        "code": "HUN",
+        "text": "Páciens"
+      },
+      {
+        "code": "ENG",
+        "text": "Patient"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "title",
+    "targets": [
+      {
+        "code": "HUN",
+        "text": "Kérdőív"
+      },
+      {
+        "code": "ENG",
+        "text": "questionnaire"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "question",
+    "targets": [
+      {
+        "code": "HUN",
+        "text": "Kérdés"
+      },
+      {
+        "code": "ENG",
+        "text": "Question"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "questiontype",
+    "targets": [
+      {
+        "code": "HUN",
+        "text": "Kérdés típus"
+      },
+      {
+        "code": "ENG",
+        "text": "Question type"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "answer_text",
+    "targets": [
+      {
+        "code": "HUN",
+        "text": "Válasz"
+      },
+      {
+        "code": "ENG",
+        "text": "Answer"
+      }
+    ]
+  }
+  
+  
+  
+  
+]
