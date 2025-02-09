@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { CtrlMainCard } from "../components/CtrlMainCard.js";
-import { Translate, GetAdminEmail } from "../core_utils/utils.js";
+import { Translate } from "../core_utils/utils.js";
 import { MainPanel, MainPanelCenter } from "../components/CtrlPanels.js";
 import PopupModal from "./PopupModal.js";
 import CtrlList from "../components/CtrlList/CtrlList.js";
