@@ -3,7 +3,7 @@ import APICall from "../components/APICall.js"
 import { useEffect, useState } from "react";
 import { Loader } from "../components/Loader.js";
 import { ErrorPage } from "./ErrorPage.js";
-import { Translate } from "../core_utils/utils.js";
+import { Translate, GetAdminEmail } from "../core_utils/utils.js";
 import PopupModal from "./PopupModal.js";
 import PageSkelton from "./PageSkelton.js";
 import { useNavigate } from "react-router-dom";
@@ -11,8 +11,9 @@ import CtrlInput from "../components/CtrlInput.js";
 import CtrlQuestionItem from "../components/CtrlQuestionItem.js";
 import CtrlButton from "../components/CtrlButton.js";
 import { MainPanelCenter, MainPanel } from "../components/CtrlPanels.js";
-import RenderEmailBody from "../components/RenderEmailBody.js";
+import RenderEmailBody from "./RenderEmailBody.js";
 import { renderToStaticMarkup } from "react-dom/server"
+import RenderEmailBodyToAdmin from "./RenderEmailBodyToAdmin.js";
 
 export default function Questionnaire() {
     const [loading, setLoading] = useState(true);
@@ -115,6 +116,12 @@ export default function Questionnaire() {
                     const staticElement = renderToStaticMarkup(body);
                     const emailCommand = new EmailCommandRequest(formValues.userEmail, Translate("Betegelegedettségi kérdőív"), staticElement);
                     await APICall(emailCommand);
+                    const adminBody = RenderEmailBodyToAdmin(formValues.userName, formValues.userEmail, resultDatas);
+                    const adminStaticElement = renderToStaticMarkup(adminBody);
+                    
+                    const adminEmailCommand = new EmailCommandRequest(GetAdminEmail(), Translate("Betegelegedettségi kérdőív"), adminStaticElement);
+                    await APICall(adminEmailCommand);
+                    
                 }
                 setLoading(false);
                 setSending(false);

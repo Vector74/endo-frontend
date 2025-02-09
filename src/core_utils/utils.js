@@ -32,6 +32,10 @@ export const GetAPIUrl = function () {
     return appsettings.apiurl;
 }
 
+export const GetAdminEmail = function () {
+    return appsettings.adminemail;
+}
+
 
 export const FlagIcon = FlagIconFactory(React, { useCssModules: false })
 

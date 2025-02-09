@@ -12,7 +12,7 @@ import { SqlCommandRequest } from "../apicalls/APICallsClasses.js";
 import APICall from "../components/APICall.js";
 import ReportAnswers from "./ReportAnswers.js";
 
-export default function AdminQuestionsHead({ loggedUserId, token }) {
+export default function AdminQuestionsHead() {
     const [showModal, setShowModal] = useState(false);
     const [loading, setLoading] = useState(true);
     const [errorMessage, setErrormessage] = useState("");
@@ -110,7 +110,7 @@ export default function AdminQuestionsHead({ loggedUserId, token }) {
                         <EditQuestionHeader parentHandleSubmit={handleSubmit} columns={columns} show={showModal} initValues={data} />
                     </PopupModal>
                     <MainPanel>
-                        <CtrlMainCard title={Translate("Adminisztrátori felület")} >
+                        <CtrlMainCard title={Translate("Adminisztrátori felület (kérdőívek)")} >
                             <CtrlList columns={columns} rows={rows} deleteRow={handleDeleteRow} editRow={handleEditRow} printRow={handlePrintRow} />
                             <MainPanelCenter>
                                 <CtrlButton onClicked={() => handleAdd()}>{Translate("Új kérdőív")}</CtrlButton>
@@ -120,7 +120,7 @@ export default function AdminQuestionsHead({ loggedUserId, token }) {
                 </>
                 : 
                 <MainPanel>
-                    <CtrlMainCard title={Translate("Adminisztrátori felület")} >
+                    <CtrlMainCard title={Translate("Adminisztrátori felület (kérdőívek)")} >
                         <PopupModal title={Translate("Kérdőív")} show={true} handleClose={handleReportClose} hideButton={true} size={"xl"}>
                             <ReportAnswers h_id={reportId} />
                         </PopupModal>

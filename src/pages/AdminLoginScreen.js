@@ -89,8 +89,8 @@ export default function AdminLoginScreen() {
                             </MainPanelCenter>
                             <CtrlInput
                                 name="userEmail"
-                                placeholder={Translate("Az ön neve")}
-                                label={Translate("Az ön neve")}
+                                placeholder={Translate("Email")}
+                                label={Translate("Email")}
                                 value={formValues.userEmail}
                                 setValue={handleChange} />
                             <span class="text-danger">

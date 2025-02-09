@@ -254,7 +254,8 @@
         "text": "Passwor"
       }
     ]
-  },
+  }
+  ,
   {
     "source": "Adminisztrátori felület",
     "targets": [
@@ -263,7 +264,8 @@
         "text": "Administrator interface"
       }
     ]
-  },
+  }
+  ,
   {
     "source": "A kérdőívhez nincsenek kérdések rögzítve!",
     "targets": [
@@ -597,6 +599,38 @@
       }
     ]
   }
+  ,
+  {
+    "source": "Adminisztrátori felület (kérdések)",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Admin interface (questions)"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Adminisztrátori felület (kérdőívek)",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Administrator interface (questionnaires)"
+      }
+    ]
+  }
+  ,
+  {
+    "source": "Átlag",
+    "targets": [
+      {
+        "code": "ENG",
+        "text": "Average"
+      }
+    ]
+  }
+  
+  
   
   
   

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { CtrlMainCard } from "../components/CtrlMainCard.js";
-import { Translate } from "../core_utils/utils.js";
+import { Translate, GetAdminEmail } from "../core_utils/utils.js";
 import { MainPanel, MainPanelCenter } from "../components/CtrlPanels.js";
 import PopupModal from "./PopupModal.js";
 import CtrlList from "../components/CtrlList/CtrlList.js";
@@ -13,7 +13,7 @@ import APICall from "../components/APICall.js";
 import ReportAnswers from "./ReportAnswers.js";
 
 
-export default function AdminQuestions({ loggedUserId, token }) {
+export default function AdminQuestions() {
     const [showModal, setShowModal] = useState(false);
     const [loading, setLoading] = useState(true);
     const [errorMessage, setErrormessage] = useState("");
@@ -39,22 +39,35 @@ export default function AdminQuestions({ loggedUserId, token }) {
                         setErrormessage(error);
                     } else {
 
-                        const newItems = qhResult.data.map((item) => {
-                            return { value: item.id, text: Translate(item.title) }
-                        });
-                        const initColumns = [
-                            { title: Translate("Kérdőív"), field: "h_id", selectitem: newItems },
-                            { title: Translate("Kérdés"), field: "question", selectitem: [] },
-                            {
-                                title: Translate("Kérdés típus"), field: "questiontype", selectitem: [
-                                    { value: "caption", text: Translate("Felirat") },
-                                    { value: "star", text: Translate("Csillag") },
-                                    { value: "text", text: Translate("Szöveg") }
-                                ]
-                            }
-                        ];
-                        setRows(results.data)
-                        setColumns(initColumns);
+                        const sqlAvgCommand = new SqlCommandRequest("SELECT *, answers.q_id, answers.answer_text FROM questions LEFT JOIN answers ON questions.id = answers.q_id");
+                        const avgResult = await APICall(sqlAvgCommand);
+                        if (avgResult.errorcode !== 0) {
+                            const error = avgResult.data[0]["message"];
+                            setErrormessage(error);
+                        } else {
+
+                            const newItems = qhResult.data.map((item) => {
+                                return { value: item.id, text: Translate(item.title) }
+                            });
+                            const initColumns = [
+                                { title: Translate("Kérdőív"), field: "h_id", selectitem: newItems },
+                                { title: Translate("Kérdés"), field: "question", selectitem: [] },
+                                {
+                                    title: Translate("Kérdés típus"), field: "questiontype", selectitem: [
+                                        { value: "caption", text: Translate("Felirat") },
+                                        { value: "star", text: Translate("Csillag") },
+                                        { value: "text", text: Translate("Szöveg") }
+                                    ]
+                                },
+                                { title: Translate("Átlag"), field: "avg", selectitem: [] },
+                            ];
+                            const newData = results.data.map((item) => {
+                                return { ...item, avg: getStarAverage(avgResult.data, item.id) }
+                            });
+                            setRows(newData)
+                            setColumns(initColumns);
+                            
+                        }
                     }
                 }
                 setLoading(false);
@@ -63,6 +76,21 @@ export default function AdminQuestions({ loggedUserId, token }) {
         loadData();
     }, [errorMessage, rows.length]);
 
+
+    function getStarAverage(avgData, id) {
+        let num = 0;
+        let count = 0;
+        for (let item of avgData) {
+            if (item.questiontype === "star" && item.q_id === id) {
+                const n = Number(item.answer_text);
+                if (!Number.isNaN(n)) {
+                    count++;
+                    num += n;
+                }
+            }
+        }
+        return count === 0 ? 0 : Number(num / count).toFixed(2); 
+    }
 
     function deleteDB(item, idx, targetIndex) {
         if (idx !== targetIndex) return true;
@@ -126,13 +154,12 @@ export default function AdminQuestions({ loggedUserId, token }) {
         const data = (rowToEdit ?? 0) === 0 ? { id: 0, h_id: 1, question: "", questiontype: "caption" } : rows[rowToEdit];
 
         return (
-            reportId === 0 ?
-                <>
+            reportId === 0 ? <>
                     <PopupModal title={Translate("Kérdés")} show={showModal} handleClose={handleClose} hideButton={true}>
                         <EditQuestion parentHandleSubmit={handleSubmit} columns={columns} show={showModal} initValues={data} ></EditQuestion>
                     </PopupModal>
                     <MainPanel>
-                        <CtrlMainCard title={Translate("Adminisztrátori felület")} >
+                        <CtrlMainCard title={Translate("Adminisztrátori felület (kérdések)")} >
                             <CtrlList columns={columns} rows={rows} deleteRow={handleDeleteRow} editRow={handleEditRow} printRow={handlePrintRow} />
                             <MainPanelCenter>
                                 <CtrlButton onClicked={() => handleAdd()}>{Translate("Új kérdés")}</CtrlButton>
@@ -140,9 +167,9 @@ export default function AdminQuestions({ loggedUserId, token }) {
                         </CtrlMainCard>
                     </MainPanel>
                 </>
-                : 
+                :
                 <MainPanel>
-                    <CtrlMainCard title={Translate("Adminisztrátori felület")} >
+                    <CtrlMainCard title={Translate("Adminisztrátori felület (kérdések)")} >
                         <PopupModal title={Translate("Kérdés")} show={true} handleClose={handleReportClose} hideButton={true} size={"xl"}>
                             <ReportAnswers id={reportId} />
                         </PopupModal>
