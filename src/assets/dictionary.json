@@ -1,6 +1,6 @@
 [
   {
-    "source": "Betegelegedettségi kérdőív",
+    "source": "Beteg elégedettségi kérdőív",
     "targets": [
       {
         "code": "ENG",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "source": "Betegelégedettségi Kérdőív Felhasználása",
+    "source": "Beteg elégedettségi Kérdőív Felhasználása",
     "targets": [
       {
         "code": "ENG",
@@ -85,7 +85,7 @@
     "targets": [
       {
         "code": "HUN",
-        "text": "A betegelégedettségi kérdőív fontos eszköz a betegek számára, mert lehetőséget biztosít számukra, hogy visszajelzést adjanak az ellátás minőségéről és a tapasztalataikról. Ezáltal kifejezhetik elégedettségüket vagy éppen problémáikat, amelyek alapján az egészségügyi intézmények fejleszthetik szolgáltatásaikat. A kérdőív kitöltése segít abban, hogy az egészségügyi dolgozók jobban megértsék a betegek igényeit és elvárásait, így személyre szabottabb ellátást nyújthassanak.<br>A betegek biztonságérzetét is növeli, ha látják, hogy véleményüket figyelembe veszik, és az esetleges problémákat orvosolják. A kérdőív lehetőséget ad arra, hogy a páciensek jelezzék, ha az ellátás során hiányosságokat tapasztaltak, például hosszú várakozási időt, kommunikációs problémákat vagy kényelmetlenségeket. Ez hozzájárulhat a kezelési hibák csökkentéséhez és az általános betegbiztonság növeléséhez.<br>A betegek számára fontos, hogy a kezelésük során tiszta, biztonságos és barátságos környezetben érezzék magukat, ezért a kérdőívek révén az intézmények felmérhetik, hogy milyen mértékben teljesítik ezeket az elvárásokat. Az étkezés, a kórtermek tisztasága és az orvos-beteg kommunikáció minősége mind olyan tényezők, amelyeket a betegek értékelhetnek, és amelyek alapján a kórházak, rendelők javíthatják működésüket.<br>A kérdőívek hozzájárulnak a betegközpontú egészségügyi ellátás kialakításához, hiszen a betegek aktív részvételével az intézmények hatékonyabbá és empatikusabbá válhatnak. Emellett segíthet abban is, hogy a betegek nagyobb bizalmat érezzenek az ellátórendszer iránt, hiszen egyértelmű visszacsatolást kapnak arról, hogy a véleményük számít.<br>Hosszú távon a kérdőívek által nyert adatok felhasználhatók az egészségügyi ellátás folyamatos fejlesztésére, ezáltal a jövőbeni betegek jobb ellátásban részesülhetnek. Az egyéni tapasztalatok megosztásával a betegek nemcsak saját helyzetüket javíthatják, hanem más páciensek számára is jobb körülményeket teremthetnek. Végső soron a betegelégedettségi kérdőív nem csupán egy adminisztratív eszköz, hanem egy olyan lehetőség, amely révén a betegek aktívan hozzájárulhatnak az egészségügyi ellátás fejlődéséhez."
+        "text": "A beteg elégedettségi kérdőív fontos eszköz a betegek számára, mert lehetőséget biztosít számukra, hogy visszajelzést adjanak az ellátás minőségéről és a tapasztalataikról. Ezáltal kifejezhetik elégedettségüket vagy éppen problémáikat, amelyek alapján az egészségügyi intézmények fejleszthetik szolgáltatásaikat. A kérdőív kitöltése segít abban, hogy az egészségügyi dolgozók jobban megértsék a betegek igényeit és elvárásait, így személyre szabottabb ellátást nyújthassanak.<br>A betegek biztonságérzetét is növeli, ha látják, hogy véleményüket figyelembe veszik, és az esetleges problémákat orvosolják. A kérdőív lehetőséget ad arra, hogy a páciensek jelezzék, ha az ellátás során hiányosságokat tapasztaltak, például hosszú várakozási időt, kommunikációs problémákat vagy kényelmetlenségeket. Ez hozzájárulhat a kezelési hibák csökkentéséhez és az általános betegbiztonság növeléséhez.<br>A betegek számára fontos, hogy a kezelésük során tiszta, biztonságos és barátságos környezetben érezzék magukat, ezért a kérdőívek révén az intézmények felmérhetik, hogy milyen mértékben teljesítik ezeket az elvárásokat. Az étkezés, a kórtermek tisztasága és az orvos-beteg kommunikáció minősége mind olyan tényezők, amelyeket a betegek értékelhetnek, és amelyek alapján a kórházak, rendelők javíthatják működésüket.<br>A kérdőívek hozzájárulnak a betegközpontú egészségügyi ellátás kialakításához, hiszen a betegek aktív részvételével az intézmények hatékonyabbá és empatikusabbá válhatnak. Emellett segíthet abban is, hogy a betegek nagyobb bizalmat érezzenek az ellátórendszer iránt, hiszen egyértelmű visszacsatolást kapnak arról, hogy a véleményük számít.<br>Hosszú távon a kérdőívek által nyert adatok felhasználhatók az egészségügyi ellátás folyamatos fejlesztésére, ezáltal a jövőbeni betegek jobb ellátásban részesülhetnek. Az egyéni tapasztalatok megosztásával a betegek nemcsak saját helyzetüket javíthatják, hanem más páciensek számára is jobb körülményeket teremthetnek. Végső soron a beteg elégedettségi kérdőív nem csupán egy adminisztratív eszköz, hanem egy olyan lehetőség, amely révén a betegek aktívan hozzájárulhatnak az egészségügyi ellátás fejlődéséhez."
       },
       {
         "code": "ENG",

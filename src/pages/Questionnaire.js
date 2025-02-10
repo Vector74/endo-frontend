@@ -114,12 +114,12 @@ export default function Questionnaire() {
                     }
                     const body = RenderEmailBody(formValues.userName, resultDatas);
                     const staticElement = renderToStaticMarkup(body);
-                    const emailCommand = new EmailCommandRequest(formValues.userEmail, Translate("Betegelegedettségi kérdőív"), staticElement);
+                    const emailCommand = new EmailCommandRequest(formValues.userEmail, Translate("Beteg elégedettségi kérdőív"), staticElement);
                     await APICall(emailCommand);
                     const adminBody = RenderEmailBodyToAdmin(formValues.userName, formValues.userEmail, resultDatas);
                     const adminStaticElement = renderToStaticMarkup(adminBody);
                     
-                    const adminEmailCommand = new EmailCommandRequest(GetAdminEmail(), Translate("Betegelegedettségi kérdőív"), adminStaticElement);
+                    const adminEmailCommand = new EmailCommandRequest(GetAdminEmail(), Translate("Beteg elégedettségi kérdőív"), adminStaticElement);
                     await APICall(adminEmailCommand);
                     
                 }

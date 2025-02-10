@@ -5,7 +5,7 @@ import PageSkelton from "./PageSkelton.js"
 
 export default function Home() {
     return <PageSkelton>
-        <CtrlMainCard title={Translate("Betegelégedettségi Kérdőív Felhasználása")} >
+        <CtrlMainCard title={Translate("Beteg elégedettségi Kérdőív Felhasználása")} >
             {parse(Translate("Főkártya szövege"))}
         </CtrlMainCard>
     </PageSkelton>
